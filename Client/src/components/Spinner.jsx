@@ -7,7 +7,7 @@ const Spinner = ({ message }) => {
      <Circles
         height={100}
         width={200}
-        color='#00BFFF'
+        color='#27682c'
         arialLabel='loading'
     />
 
