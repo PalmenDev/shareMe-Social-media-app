@@ -48,7 +48,7 @@ const Pin = ({pin: {postedBy, image, _id, destination, save}}) => {
         <div className='m-2'>
             <div onMouseEnter={() => setPostHovered(true)}
             onMouseLeave={() => setPostHovered(false)}
-            onClick={() => navigate(`/pin/-detail/${_id}`)}
+            onClick={() => navigate(`/pin-detail/${_id}`)}
             className='relative cursor-zoom-in w-auto hover:shadow-lg rounded-lg overflow-hidden transition-all duration-500 ease-in-out'
             >
             <img className='rounded-lg w-full' alt='user-post' src={urlFor(image).width(250).url()} />
@@ -89,17 +89,18 @@ const Pin = ({pin: {postedBy, image, _id, destination, save}}) => {
                         )}
                     </div>
                     <div className='flex justify-between items-center gap-2 w-full'>
-                        {destination && (
-                            <a href={destination}
-                            target='_blank'
-                            className='bg-white flex items-center gap-2 text-black font-bold p-2 pl-4 pr-4 rounded-full opacity-70 hover:opacity-100 hover:shadow-md'
-                            rel='noreferrer'
-                            >
-                                <BsFillArrowUpRightCircleFill />
-                                {destination.length > 20 ? destination.slice(8, 20) : destination.slice(8)}
-                            </a>
-                        )}
-
+                    {destination?.slice(8).length > 0 ? (
+                    <a
+                    href={destination}
+                    target="_blank"
+                    className="bg-white flex items-center gap-2 text-black font-bold p-2 pl-4 pr-4 rounded-full opacity-70 hover:opacity-100 hover:shadow-md"
+                    rel="noreferrer"
+                    >
+                    {' '}
+                    <BsFillArrowUpRightCircleFill />
+                    {destination?.slice(8, 17)}...
+                    </a>
+                    ) : undefined}
                         {postedBy?._id === user.googleId && (
                             <button
                             type='button'
