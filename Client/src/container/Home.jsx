@@ -8,6 +8,7 @@ import { Sidebar, UserProfile } from '../components';
 import Pins from './Pins.jsx'
 import {client} from '../client.js';
 import logo from '../assets/logo.png';
+import { fetchUser } from '../utils/FetchUser';
 
  
 const Home = () => {
@@ -16,7 +17,7 @@ const Home = () => {
     const [user, setUser] = useState(null)
     const scrollRef = useRef(null);
 
-    const userInfo = localStorage.getItem('user') !== 'undefined' ? JSON.parse(localStorage.getItem('user') ) : localStorage.clear()
+    const userInfo = fetchUser();
 
     useEffect(() => {
         const query = userQuery(userInfo?.googleId);
