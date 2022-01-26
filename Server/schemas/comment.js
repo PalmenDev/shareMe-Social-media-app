@@ -12,6 +12,18 @@ export default {
             name: 'comment',
             title: 'Comment',
             type: 'string'
+        },
+        {
+
+            name: 'userId',
+            title: 'UserId',
+            type: 'string'
+
+        },
+        {
+            name: 'id',
+            title: 'Id',
+            type: 'string'
         }
     ]
 }
