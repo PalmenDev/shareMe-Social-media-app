@@ -1,6 +1,6 @@
-# shareMe-Social-media-app
+# PalmMedia - A social media application.
 
-![Image of the project result](Client/src/assets/ProjectPin.PNG "Presentation of the feed").
+<img src="Client/src/assets/ProjectPin.PNG" alt="Image of the project result" style="height: 100px; width:100px;"/>
 
 A social media app were I have used the techniques React.js to make the Web GUI and Sanity as backend to work as a database. 
 
