@@ -7,13 +7,14 @@ A social media app were I have used the techniques React.js with tailwindCss to 
 The web application is hosted at : https://palmmedia.netlify.app .
 
 
-For more information about the techniques follow these links below.
+For more information and documentation about the techniques follow these links below.
 
-[React.js](https://reactjs.org/){:target="_blank"}
+<a href="https://reactjs.org/" target="_blank">React.js</a>
 
-[TailwindCss](https://tailwindcss.com/){:target="_blank"}
+<a href="https://tailwindcss.com/" target="_blank">TailwindCss</a>
 
-[Sanity](https://www.sanity.io/){:target="_blank"}
+<a href="https://www.sanity.io/" target="_blank">Sanity</a>
+
 
 
 
