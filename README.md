@@ -9,11 +9,11 @@ The web application is hosted at : https://palmmedia.netlify.app .
 
 For more information about the techniques follow these links below.
 
-[React.js](https://reactjs.org/)
+[React.js](https://reactjs.org/){:target="_blank"}
 
-[TailwindCss](https://tailwindcss.com/)
+[TailwindCss](https://tailwindcss.com/){:target="_blank"}
 
-[Sanity](https://www.sanity.io/)
+[Sanity](https://www.sanity.io/){:target="_blank"}
 
 
 
