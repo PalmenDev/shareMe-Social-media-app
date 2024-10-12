@@ -4,7 +4,7 @@
 
 A social media app were I have used the techniques React.js with tailwindCss to make the Web GUI and Sanity as backend to work as a database for the created users, pins, comments and saved images. 
 
-The web application is hosted at : https://palmmedia.netlify.app .
+The web application is no longer hosted 
 
 
 For more information and documentation about the techniques follow these links below.
